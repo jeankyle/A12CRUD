@@ -9,5 +9,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'A12CRUD';
+  title = 'Rahisi Solution';
+  language = 'Angular';
 }
