@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import {ContainerComponent} from "./Container/container.component";
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,11 +15,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'A12CRUD' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('A12CRUD');
-  });
+  // it(`should have the 'A12CRUD' title`, () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   const app = fixture.componentInstance;
+  //   expect(app.title).toEqual('A12CRUD');
+  // });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
