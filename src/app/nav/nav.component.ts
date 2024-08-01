@@ -10,12 +10,6 @@ import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
     RouterLinkActive
   ],
   templateUrl: './nav.component.html',
-  styleUrls: [
-    '../../assets/plugins/fontawesome-free/css/all.min.css',
-    '../../assets/css/adminlte.min.css',
-    '../../assets/css/custom.css',
-    '.././app.component.css',
-  ]
 })
 export class NavComponent {
 

@@ -7,13 +7,7 @@ import {NotificationComponent} from "../notification/notification.component";
   selector: 'app-container',
   standalone: true,
   imports: [RouterOutlet, NavComponent, NotificationComponent],
-  templateUrl: './container.component.html',
-  styleUrls: [
-    '../../assets/plugins/fontawesome-free/css/all.min.css',
-    '../../assets/css/adminlte.min.css',
-    '../../assets/css/custom.css',
-    '.././app.component.css',
-  ]
+  templateUrl: './container.component.html'
 })
 
 export class ContainerComponent {}

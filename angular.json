@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "css"
         }
       },
       "root": "",
@@ -32,9 +32,17 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/assets/plugins/fontawesome-free/css/all.min.css",
+              "src/assets/css/adminlte.min.css",
+              "src/assets/css/custom.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/jquery/jquery.min.js",
+              "src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/js/adminlte.min.js",
+              "src/assets/js/echarts.min.js",
+              "src/assets/js/notifications.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,18 +98,8 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/assets/plugins/fontawesome-free/css/all.min.css",
-              "src/assets/css/adminlte.min.css",
-              "src/assets/css/custom.css"
-            ],
-            "scripts": [
-              "src/assets/plugins/jquery/jquery.min.js",
-              "src/assets/plugins/bootstrap/js/bootstrap.bundle.min.js",
-              "src/assets/js/adminlte.min.js",
-              "src/assets/js/echarts.min.js",
-              "src/assets/js/notifications.js"
-            ]
+            "styles": [],
+            "scripts": []
           }
         }
       }
